@@ -21,6 +21,7 @@ A decentralized application (dApp) built using Rust backend and React frontend o
   
   ```bash
   rustup target add wasm32-unknown-unknown
+  
   - Node.js and npm installed
 
 ## Installation & Deployment
