@@ -20,7 +20,7 @@ A decentralized application (dApp) built using Rust backend and React frontend o
 - Install Rust toolchain and add the `wasm32-unknown-unknown` target:
   
   ```bash
-  rustup target add wasm32-unknown-unknown
+  rustup target add wasm32-unknown-unknown```
   
   - Node.js and npm installed
 
