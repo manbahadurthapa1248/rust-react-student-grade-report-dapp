@@ -27,9 +27,9 @@ A decentralized application (dApp) built using Rust backend and React frontend o
 
 ### Clone this repository:
 
-  ```bash
-  git clone https://github.com/manbahadurthapa1248/rust-react-student-grade-report-dapp.git
-  cd rust-react-student-grade-report-dapp
+      ```bash
+      git clone https://github.com/manbahadurthapa1248/rust-react-student-grade-report-dapp.git
+      cd rust-react-student-grade-report-dapp
 
 ### Start the Local Internet Computer Network
 
