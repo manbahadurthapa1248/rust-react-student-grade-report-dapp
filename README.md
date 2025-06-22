@@ -20,32 +20,31 @@ A decentralized application (dApp) built using Rust backend and React frontend o
 - Install Rust toolchain and add the `wasm32-unknown-unknown` target:
   
   ```bash
-  rustup target add wasm32-unknown-unknown```
-  
-  - Node.js and npm installed
+  rustup target add wasm32-unknown-unknown
+- Node.js and npm installed
 
 ## Installation & Deployment
 
 ### Clone this repository:
 
-```bash
-git clone https://github.com/manbahadurthapa1248/rust-react-student-grade-report-dapp.git
-cd rust-react-student-grade-report-dapp
+  ```bash
+  git clone https://github.com/manbahadurthapa1248/rust-react-student-grade-report-dapp.git
+  cd rust-react-student-grade-report-dapp
 
 ### Start the Local Internet Computer Network
 
-```bash
-dfx start --background
+  ```bash
+  dfx start --background
 
 ## Build Your Rust Canister and Frontend
 
-```bash
-dfx build
+  ```bash
+  dfx build
 
 ## Deploy the Canisters to the Local Network
 
-```bash
-dfx deploy
+  ```bash
+  dfx deploy
 
 ---
 
