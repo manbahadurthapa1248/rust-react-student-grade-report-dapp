@@ -1,0 +1,38 @@
+{
+  "canisters": {
+    "icp_student_records_backend": {
+      "candid": "src/icp_student_records_backend/icp_student_records_backend.did",
+      "package": "icp_student_records_backend",
+      "type": "rust"
+    },
+    "icp_student_records_frontend": {
+      "dependencies": [
+        "icp_student_records_backend"
+      ],
+      "source": [
+        "src/icp_student_records_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "icp_student_records_frontend"
+    },
+    "internet_identity": {
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "frontend": {},
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
