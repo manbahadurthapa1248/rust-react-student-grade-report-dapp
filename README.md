@@ -32,18 +32,18 @@ A decentralized application (dApp) built using Rust backend and React frontend o
 
 ### Start the Local Internet Computer Network
 
-  ```bash
-  dfx start --background
+  
+      dfx start --background
 
 ## Build Your Rust Canister and Frontend
 
-  ```bash
-  dfx build
+  
+      dfx build
 
 ## Deploy the Canisters to the Local Network
 
-  ```bash
-  dfx deploy
+
+      dfx deploy
 
 ---
 
@@ -57,10 +57,10 @@ A decentralized application (dApp) built using Rust backend and React frontend o
 
 ## Project Structure
 
-  ```bash
-  /src/icp_student_records_backend    # Rust backend canister  
-  /src/icp_student_records_frontend   # React frontend app  
-  /dfx.json                           # dfx configuration file
+  
+      /src/icp_student_records_backend    # Rust backend canister  
+      /src/icp_student_records_frontend   # React frontend app  
+      /dfx.json                           # dfx configuration file
 
 ---
 
